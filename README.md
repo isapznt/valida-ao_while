@@ -16,24 +16,35 @@ Campo de entrada para digitação de valores
 Botão para validar o valor digitado
 Validação utilizando REGEX em JavaScript
 Exibição de mensagens:
+
 ✅ "Valor válido"
+
 ❌ "Valor inválido"
+
 Feedback visual:
 🟢 Borda verde para valores válidos
+
 🔴 Borda vermelha para valores inválidos
 🧪 Exemplos de Uso
+
 ✔️ Entradas válidas:
 10
 3.14
 0.5
+
 ❌ Entradas inválidas:
 abc
 10,5
 10..2
+
 💡 Desafios Extras (Opcional)
+
 🔄 Validação em tempo real enquanto o usuário digita
+
 🌍 Suporte a números com vírgula (ex: 10,5)
+
 ⚠️ Mensagens de erro mais descritivas
+
 🗂️ Estrutura do Projeto
 
 O projeto é composto por um único arquivo:
@@ -45,12 +56,14 @@ Este arquivo contém:
 HTML (estrutura da página)
 CSS (estilização)
 JavaScript (lógica de validação)
+
 🚀 Como Executar
 Baixe o arquivo index.html
 Abra o arquivo em qualquer navegador (Chrome, Edge, Firefox, etc.)
 Digite um valor no campo
 Clique no botão de validação
 Veja o resultado na tela
+
 📌 Critérios de Avaliação
 ✔️ Uso correto da expressão regular
 ✔️ Funcionamento da validação
