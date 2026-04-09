@@ -1,0 +1,40 @@
+// ==============================
+// 1️⃣ INÍCIO - Declaração das variáveis
+// ==============================
+
+let numeroTabuada = 1;           // contador externo (tabuada de 1 a 10)
+let resultadoFinal = "";         // acumulador de texto (string)
+
+// ==============================
+// 2️⃣ LAÇO EXTERNO - Gera cada tabuada
+// ==============================
+
+while (numeroTabuada <= 10) {
+
+    resultadoFinal += "<div class='tabuada'>";
+    resultadoFinal += "<h3>Tabuada do " + numeroTabuada + "</h3>";
+
+    let multiplicador = 1;  // contador interno (multiplicações de 1 a 10)
+
+    // ==============================
+    // 3️⃣ LAÇO INTERNO - Multiplicações individuais
+    // ==============================
+
+    while (multiplicador <= 10) {
+
+        resultadoFinal += numeroTabuada + " x " + multiplicador + " = " 
+                        + (numeroTabuada * multiplicador) + "<br>";
+
+        multiplicador++; // 🔁 Incremento interno
+    }
+
+    resultadoFinal += "</div>";
+
+    numeroTabuada++; // 🔁 Incremento externo
+}
+
+// ==============================
+// 4️⃣ SAÍDA NO DOM
+// ==============================
+
+document.getElementById("resultado").innerHTML = resultadoFinal;
